@@ -1,0 +1,320 @@
+body#martisoarecuemotii {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fcfeec;
+    color: #232409;
+    padding: 0 40px;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+}
+h2.title {
+    font-size: 4em;
+    margin: 0;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.top-bar {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.top-bar .img-background {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+.top-bar .img-background.smile{
+    background: url(../images/smile_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.hearth{
+    background: url(../images/hearth_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.glasses{
+    background: url(../images/glasses_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.flower{
+    background: url(../images/flower_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.mustache{
+    background: url(../images/mustache_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.hlove:hover{
+    background: url(../images/love_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.hteeth:hover{
+    background: url(../images/teeth_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.htongue:hover{
+    background: url(../images/tongue_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.hhappy:hover{
+    background: url(../images/happy_150.png) no-repeat 0 0 transparent;
+}
+.top-bar .img-background.hshy:hover{
+    background: url(../images/shy_150.png) no-repeat 0 0 transparent;
+}
+
+
+.main-title .box {
+    padding-bottom: 50px;
+}
+.main-title h1 {
+    margin: 0;
+}
+.main-title h1.has1 {
+    font-size: 5em;
+}
+.main-title h1.has2 {
+    font-size: 6em;
+    line-height: 0.5em;
+}
+
+.catchphrase {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 20px;
+    width: auto;
+    color: #232409;
+    background-color: transparent;
+    border-color: #232409;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    min-width: 120px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.action-button:hover {
+    background-color: #232409;
+    color: #fcfeec;
+}
+
+.action-button.cta {
+    border-color: #b80c09;
+    color: #b80c09;
+}
+.action-button.cta:hover {
+    background-color: #b80c09;
+    color: #fcfeec;
+}
+
+.full-picture {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.story-container {
+    margin-bottom: 40px;
+}
+.story {
+    text-align: left;
+}
+.story p {
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.parts-box {
+    margin-bottom: 60px;
+}
+.price {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.price span {
+    font-size: 0.7em;
+}
+
+.times-number {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.purchase-title {
+    margin-bottom: 20px;
+}
+.purchase-container {
+    margin-bottom: 60px;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    padding: 0 40px 20px 40px;
+    border: 2px solid #B80C09;
+    border-radius: 6px;
+}
+form h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #B80C09;
+}
+form label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+    color: #B80C09;
+}
+form label input, form label textarea {
+    font-weight: 300;
+    color: #232409;
+}
+input, textarea {
+    border: 2px solid #B80C09;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1.2em;
+    background-color: rgba(255,255,255,0.8);
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #F0514D;
+}
+textarea {
+    height: 6.5em;
+    resize: none;
+}
+.submit-wrap {
+    text-align: right;
+}
+.submit-wrap[type="submit"] {
+    background: #B80C09;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 33%;
+}
+.submit-wrap[type="submit"]:hover {
+    background: #F0514D;
+}
+
+.half {
+    width: 50%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+.half:first-of-type {
+    padding-right: 5px;
+}
+.half:last-of-type {
+    padding-left: 5px;
+}
+label .add {
+    font-weight: 300;
+}
+.count {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.count input {
+    max-width: 50px;
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+
+.contact-footer {
+    padding: 10px 0;
+}
+.contact-footer .social-footer ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+    width: 100px;
+}
+.contact-footer .social-footer li {
+	list-style-type: none;
+	float: left;
+}
+.contact-footer .social-footer ul li a i {
+	background: #232409;
+	color: #FCFEEC;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+	transition: all 0.2s ease-in-out;
+	opacity: .4;
+    box-sizing: border-box;
+}
+.contact-footer .social-footer ul li a i:hover {
+	opacity: 1;
+}
+
+@media (max-width: 75em) {
+    .hidden-lg {
+        display: none;
+    }
+}
+@media (max-width: 64em) {
+    .hidden-md {
+        display: none;
+    }
+
+    body {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 48em) {
+    .hidden-sm {
+        display: none;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+    .story {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 30em) {
+    .hidden-xs {
+        display: none;
+    }
+}

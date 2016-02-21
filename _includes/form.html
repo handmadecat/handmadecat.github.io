@@ -1,0 +1,65 @@
+<section>
+
+    <div id="comanda" class="row center-xs purchase-title">
+        <div class="col-xs-12">
+            <div class="box">
+                <h2 class="title">Comandă</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row purchase-container">
+        <div class="col-xs-12 col-md-4">
+            <div class="box">
+                <ul>
+                    <li><span class="ulnr">1.</span> Rezerva pe site doar cu numele si numarul de telefon.</li>
+                    <li><span class="ulnr">2.</span> Te contactam telefonic pentru confirmare.</li>
+                    <li><span class="ulnr">3.</span> Iti ridici comanda de aici, in maxim 3 zile lucratoare.</li>
+                    <li class="tip">*plata se face la ridicare</li>
+                    <li class="tip">**plata se face la ridicare</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-8">
+            <div class="box">
+                <form method="POST" action="//formspree.io/handmadecatcom@gmail.com">
+                  <h3 class="title">Formular de comandă</h3>
+                  <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                      <div class="box">
+                          <fieldset class="personal-info-group">
+                            <label><span>Nume</span>
+                            <input type="text" name="Nume"></label>
+                            <label class="half"><span>Telefon</span>
+                            <input type="tel" name="Telefon"></label>
+                            <label class="half"><span>Email</span>
+                            <input type="email" name="_replyto"></label>
+                          </fieldset>
+                          <div class='total'>
+                            <div class='finalTotal'>
+                              Total
+                              <span>0 Lei</span>
+                            </div>
+                          </div>
+                          <label><span>Mesaj comandă <span class="add">(opțional)</span></span>
+                          <textarea name="Mesaj"></textarea></label>
+                          <input type="text" name="_gotcha" style="display:none" />
+                          <input type="hidden" name="_next" value="//site.io/thanks.html" />
+                          <input type="hidden" name="_subject" value="Comandă nouă!" />
+                          <textarea style="display:none" name="Comanda" id="shipText" cols="30" rows="10"></textarea>
+                          <fieldset class="submit-wrap">
+                            <input class="action-button cta" type="submit" value="Trimite comanda">
+                          </fieldset>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6">
+                      <div class="box">
+                            <ul class="aici-produse"></ul>
+                      </div>
+                  </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
