@@ -621,9 +621,12 @@ header span.cart-quantity
 .toggle
   transition: all .2s ease-in-out
 
-.toggle:hover, .toggle.pulsing
+.toggle.pulsing
   animation: pulse 1.1s ease-out
   animation-iteration-count: once
+  transform: scale(1.1)
+
+.toggle:hover
   transform: scale(1.1)
 
 .expand-link

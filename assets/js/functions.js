@@ -13,10 +13,12 @@ $(function() {
 
 function pulseCart() {
 	setInterval(function(){
-		$(".toggle").addClass("pulsing");
-		setTimeout(function(){
-    				$(".toggle").removeClass("pulsing");
-		}, 1200);
+		if($('.cart-quantity').val() > 0) {
+			$(".toggle").addClass("pulsing");
+			setTimeout(function(){
+							$(".toggle").removeClass("pulsing");
+			}, 1200);
+		}
 	}, 30000);
 }
 
