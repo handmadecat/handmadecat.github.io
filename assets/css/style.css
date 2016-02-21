@@ -318,3 +318,23 @@ label .add {
         display: none;
     }
 }
+
+.products-group {
+  width: 50%;
+  float: left;
+}
+.detalii-comanda {
+  padding: 0 15px;
+}
+.detalii-comanda p {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+.detalii-comanda a, .detalii-comanda a:hover {
+  color: #B80C09;
+}
+.detalii-comanda i {
+  display: inline-block;
+  color: #B80C09;
+  margin-right: 5px;
+}
