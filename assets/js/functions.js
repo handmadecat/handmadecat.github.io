@@ -13,7 +13,7 @@ $(function() {
 
 function pulseCart() {
 	setInterval(function(){
-		if($('.cart-quantity').val() > 0) {
+		if(Number($('.cart-quantity').text()) > 0) {
 			$(".toggle").addClass("pulsing");
 			setTimeout(function(){
 							$(".toggle").removeClass("pulsing");
@@ -550,6 +550,29 @@ $(document).ready(function() {
   });
 
   $('body').on('click', '.cart-items li .fa-times', function() {
+	  var $timesParent = $(this).parent();
+	  var $aiciItems = $('.aici-produse li');
+	  var $aiciDelete;
+
+	  $aiciDelete = $aiciItems.filter(function(index) {
+        var $this = $(this);
+        return $this.data('id') === $timesParent.data('id');
+      });
+
+    if ($timesParent.find('.quantity').val() > 1) {
+      $timesParent.find('.quantity').val( $timesParent.find('.quantity').val() - 1 );
+	  $aiciDelete.find('.quantity').val( $aiciDelete.find('.quantity').val() - 1 );
+    } else {
+      $timesParent.remove();
+	  $aiciDelete.remove();
+    }
+
+    updateCartQuantity();
+    calculateAndUpdate();
+		fillForm();
+  });
+
+	$('body').on('click', '.aici-produse li .fa-times', function() {
 	  var $timesParent = $(this).parent();
 	  var $aiciItems = $('.aici-produse li');
 	  var $aiciDelete;
