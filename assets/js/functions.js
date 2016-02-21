@@ -618,7 +618,8 @@ $(document).ready(function() {
   // Clicking outside the cart closes the cart, unless target is the "Add to Cart" button
 
   // $('body').on('mousedown', function(e){
-  //   if (!$(e.target).is('.add') && !$(e.target).is('.added') && !$(e.target).is('label.toggle')) {
+  //   if (!$(e.target).is('.add') && !$(e.target).is('.added') && !$(e.target).is('label.toggle')
+	// && !$(e.target).is('#cart')) {
   //     $wrap.removeClass('active');
   //     $cartlink.removeClass('active');
   //  $('#sidebartoggler').prop( "checked", false );
