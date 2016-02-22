@@ -344,3 +344,12 @@ label .add {
   color: #B80C09;
   font-size: 1.4em;
 }
+
+.back-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.back-button:hover {
+  transform: scale(1.1);
+}
