@@ -297,7 +297,7 @@ label .add {
         display: none;
     }
 
-    body {
+    body#martisoarecuemotii {
         padding: 0 20px;
     }
 }
@@ -306,7 +306,7 @@ label .add {
         display: none;
     }
 
-    body {
+    body#martisoarecuemotii {
         padding: 0 10px;
     }
     .story {
@@ -337,4 +337,10 @@ label .add {
   display: inline-block;
   color: #B80C09;
   margin-right: 5px;
+}
+
+.total-on-form {
+  font-family: 'Lobster', sans-serif;
+  color: #B80C09;
+  font-size: 1.4em;
 }

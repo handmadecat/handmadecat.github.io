@@ -463,7 +463,9 @@ $(document).ready(function() {
 		'medalion_floare_colt' : ['Medalion floare de colț', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_floare_colt.jpg', 5],
 		'colier_orhidee' : ['Colier piele cu orhidee', "Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.",12 , 'assets/images/colier_orhidee.jpg', 1],
 		'set_panseluta' : ['Set panseluțe', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.",15 , 'assets/images/set_panseluta.jpg', 27],
-		'set_mac' : ['Set maci', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.", 15, 'assets/images/set_mac.jpg', 2]
+		'set_mac' : ['Set maci', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.", 15, 'assets/images/set_mac.jpg', 2],
+		'cutie_mica' : ['Mărțișoare emoji (x10)', "Fabricați din fimo. Cutie cu 10 emoji diferiți, ambalați în săculeți separați. Diametru 1,8cm.",20 , 'assets/images/box-small.jpg', 29],
+		'cutie_mare' : ['Mărțișoare emoji (x20)', "Fabricați din fimo. Cutie cu 20 emoji, 10 tipuri, ambalați în săculeți separați. Diametru 1,8cm.", 40, 'assets/images/box-big.jpg', 30]
   };
 
   // Populates shop with items based on template and data in var products
@@ -613,6 +615,10 @@ $(document).ready(function() {
     $cartlink.toggleClass('active');
     $wrap.toggleClass('active');
     return false;
+	});
+
+	$('a.checkout').on('click', function(e) {
+		$('#sidebartoggler').prop( "checked", false );
 	});
 
   // Clicking outside the cart closes the cart, unless target is the "Add to Cart" button

@@ -476,11 +476,10 @@ a.checkout
   &:checked + #cart
     right: 0px
 
-    .toggle
-      right: 200px
+  &:checked + #cart + nav
+    .fa.fa-shopping-cart:before
+      content: "\f00d"
 
-    .page-content
-      padding-left: 180px
 
 #cart
   width: 320px
@@ -675,3 +674,42 @@ header span.cart-quantity
 @media (max-width: 560px)
   .product
     width: 100%
+
+section.martisoarecuemotii
+  position: relative
+  background: url(../images/martisoarecuemotii.png) no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+  p
+    color: #fff
+    display: none
+    position: relative
+    z-index: 2
+
+  .main-title .box
+    padding-bottom: 0
+
+    &.main-box
+      padding-bottom: 50px
+
+  .overlay
+    display: none
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: rgba(0,0,0,0.7)
+
+  &:hover
+    p
+      display: block
+    h1
+      position: relative
+      color: #fff
+      z-index: 2
+    .overlay
+      display: block
