@@ -16,11 +16,17 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Handmade Cat</title>
+  <title>Bijunicat</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 
   <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/creative.css" type="text/css">
 
   <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
   <link rel="stylesheet" href="assets/css/lightbox.min.css">
@@ -30,17 +36,60 @@
 
   {% include analytics.html %}
 </head>
-<body>
+<body id="page-top">
 
-{% include header.html %}
+<!-- <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Bijunicat</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#produse">Produse</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cumpara">Cumpara</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
 
-{% include about.html %}
+    {% include header.html %}
 
-{% include form.html %}
+    <aside class="bg-dark martisoarecuemotii" id="promo">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Mărțișoare cu emoții</h2>
+                <a href="http://handmadecat.com/martisoarecuemotii" class="btn btn-default btn-xl wow tada">Descoperă colecția</a>
+            </div>
+        </div>
+    </aside>
 
-{% include footer.html %}
+    {% include about.html %}
+
+    {% include form.html %}
+
+    {% include footer.html %}
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.fittext.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/creative.js"></script>
+
 <script src="assets/js/lightbox.min.js"></script>
 <script src="assets/js/functions.js"></script>
 </body>
