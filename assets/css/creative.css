@@ -64,9 +64,9 @@ p {
     color: rgba(255,255,255,.7);
 }
 
-section {
+/*section {
     padding: 100px 0;
-}
+}*/
 
 aside {
     padding: 50px 0;
@@ -389,9 +389,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #B80C09;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #B80C09;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;

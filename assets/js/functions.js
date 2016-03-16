@@ -454,16 +454,6 @@ $(document).ready(function() {
 		// 'soricel_mesaj' : ['Șoricel cu mesaj', "Fabricat din fimo, mesaj pe carton. Stă așezat. Dimensiuni 8x5,5cm.", 5, 'assets/images/soricel_mesaj.jpg', 22],
 		// 'panseluta_mov' : ['Broșă panseluță mov', "Fabricată din fimo, mărțișor. Dimensiuni 2,5x2,5cm", 3.5, 'assets/images/panseluta_mov.jpg', 23],
 		// 'brosa_panseluta' : ['Broșă panseluță', "Fabricată din fimo, cu ac de broșă. Dimensiuni 3,5x4cm.", 5, 'assets/images/brosa_panseluta.jpg', 24],
-		'brosa_orhidee' : ['Broșă orhidee', "Fabricată din fimo, cu ac de broșă. Dimensiuni 6x6cm.",10 , 'assets/images/brosa_orhidee.jpg', 25],
-		'cercei_pisici_1' : ['Cercei pisici Felix', "Fabricați din fimo, pe suport de cercei cu șurub. Dimensiuni 1x5cm.", 15, 'assets/images/cercei_pisici_1.jpg', 26],
-		'bufnita_lant' : ['Colier lanț bufniță', "Fabricată din fimo, cu pene atașate, lanț metalic fără nichel. Dimensiuni 5x2,5cm.",12 , 'assets/images/bufnita_lant.jpg', 6],
-		'bufnita_cauciuc' : ['Colier bufniță', "Fabricată din fimo, cu pene atașate, lanț cauciuc. Dimensiuni 5x2,5cm.", 10, 'assets/images/bufnita_cauciuc.jpg', 7],
-		'medalion_mac' : ['Medalion mac', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.",10 , 'assets/images/medalion_mac.jpg', 3],
-		'medalion_flori' : ['Medalion flori de câmp', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_flori.jpg', 4],
-		'medalion_floare_colt' : ['Medalion floare de colț', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_floare_colt.jpg', 5],
-		'colier_orhidee' : ['Colier piele cu orhidee', "Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.",12 , 'assets/images/colier_orhidee.jpg', 1],
-		'set_panseluta' : ['Set panseluțe', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.",15 , 'assets/images/set_panseluta.jpg', 27],
-		'set_mac' : ['Set maci', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.", 15, 'assets/images/set_mac.jpg', 2],
 		// 'cutie_mica' : ['Mărțișoare emoji (x10)', "Fabricați din fimo. Cutie cu 10 emoji diferiți, ambalați în săculeți separați. Diametru 1,8cm.",20 , 'assets/images/box-small.jpg', 29],
 		// 'cutie_mare' : ['Mărțișoare emoji (x20)', "Fabricați din fimo. Cutie cu 20 emoji, 10 tipuri, ambalați în săculeți separați. Diametru 1,8cm.", 40, 'assets/images/box-big.jpg', 30],
 		'colier_copac' : ['Colier copac', "", 15, 'assets/images/colier_copac.jpg', 31],
@@ -476,7 +466,17 @@ $(document).ready(function() {
 		'cercel_orhidee' : ['Cercei orhidee', "", 10, 'assets/images/cercel_orhidee.jpg', 38],
 		'cercel_gia' : ['Cercei Gia', "", 15, 'assets/images/cercel_gia.jpg', 39],
 		'cercei_flower_pot' : ['Cercei flori cu desen', "", 20, 'assets/images/cercei_flower_pot.jpg', 40],
-		'cercel_flori_roz' : ['Cercei flori roz', "", 25, 'assets/images/cercel_flori_roz.jpg', 41]
+		'cercel_flori_roz' : ['Cercei flori roz', "", 25, 'assets/images/cercel_flori_roz.jpg', 41],
+		'brosa_orhidee' : ['Broșă orhidee', "Fabricată din fimo, cu ac de broșă. Dimensiuni 6x6cm.",10 , 'assets/images/brosa_orhidee.jpg', 25],
+		'cercei_pisici_1' : ['Cercei pisici Felix', "Fabricați din fimo, pe suport de cercei cu șurub. Dimensiuni 1x5cm.", 15, 'assets/images/cercei_pisici_1.jpg', 26],
+		'bufnita_lant' : ['Colier lanț bufniță', "Fabricată din fimo, cu pene atașate, lanț metalic fără nichel. Dimensiuni 5x2,5cm.",12 , 'assets/images/bufnita_lant.jpg', 6],
+		'bufnita_cauciuc' : ['Colier bufniță', "Fabricată din fimo, cu pene atașate, lanț cauciuc. Dimensiuni 5x2,5cm.", 10, 'assets/images/bufnita_cauciuc.jpg', 7],
+		'medalion_mac' : ['Medalion mac', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.",10 , 'assets/images/medalion_mac.jpg', 3],
+		'medalion_flori' : ['Medalion flori de câmp', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_flori.jpg', 4],
+		'medalion_floare_colt' : ['Medalion floare de colț', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_floare_colt.jpg', 5],
+		'colier_orhidee' : ['Colier piele cu orhidee', "Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.",12 , 'assets/images/colier_orhidee.jpg', 1],
+		'set_panseluta' : ['Set panseluțe', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.",15 , 'assets/images/set_panseluta.jpg', 27],
+		'set_mac' : ['Set maci', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.", 15, 'assets/images/set_mac.jpg', 2]
   };
 
   // Populates shop with items based on template and data in var products
