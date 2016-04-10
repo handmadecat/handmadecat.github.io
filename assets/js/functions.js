@@ -454,7 +454,6 @@ $(document).ready(function() {
 		}
 		{% endcapture %}
 		var products = {{produse | strip_newlines}};
-		console.log({{produse | strip_newlines}});
   // Populates shop with items based on template and data in var products
 
   var $shop = $('.shop');
@@ -629,8 +628,9 @@ $(document).ready(function() {
         tax = 0;
     items.each(function(index, item) {
       var $item = $(item),
-          price = $item.data('subtotal');
+          price = Number($item.data('subtotal'));
       subtotal += price;
+			console.log(subtotal);
     });
     $('.subtotalTotal span').text(formatDollar(subtotal));
     tax = 0;

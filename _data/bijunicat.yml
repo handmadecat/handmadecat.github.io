@@ -42,3 +42,15 @@ produse:
   - { nume: 'Colier piele cu orhidee', descriere: 'Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.',pret: 12 , poza: 'colier_orhidee', id: 1}
   - { nume: 'Set panseluțe', descriere: 'Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.',pret: 15 , poza: 'set_panseluta', id: 27}
   - { nume: 'Set maci', descriere: 'Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.', pret: 15, poza: 'set_mac', id: 2 }
+  - { nume: 'Colier Margaretă', descriere: 'Diametru floare 4cm', pret: 15, poza: 'colier_margareta', id: 40 }
+  - { nume: 'Colier Margaretă mică', descriere: 'Diametru floare 2,5cm', pret: 15, poza: 'colier_margareta_mica', id: 41 }
+  - { nume: 'Brățară Margaretă', descriere: 'Diametru floare 2,5cm', pret: 10, poza: 'bratara_margareta', id: 42 }
+  - { nume: 'Colier Liliac', descriere: '', pret: 15, poza: 'colier_liliac', id: 43 }
+  - { nume: 'Colier Cabochon trandafir roz', descriere: '', pret: 15, poza: 'colier_cabochon', id: 44 }
+  - { nume: 'Colier Maci', descriere: '', pret: 10, poza: 'colier_maci', id: 45 }
+  - { nume: 'Colier Meduză', descriere: 'Meduza este fosforescentă.', pret: 20, poza: 'colier_meduza', id: 46 }
+  - { nume: 'Colier Cabochon Trandafiri Bej', descriere: '', pret: 20, poza: 'cabochon_bej', id: 47 }
+  - { nume: 'Colier Cabochon maci', descriere: '', pret: 20, poza: 'cabochon_maci', id: 48 }
+  - { nume: 'Broșă maci', descriere: '', pret: 10, poza: 'brosa_maci', id: 49 }
+  - { nume: 'Cercei Trandafiri roz', descriere: '', pret: 12, poza: 'cercei_trandafiri_roz', id: 50 }
+  - { nume: 'Colier Trandafiri roz', descriere: '', pret: 20, poza: 'colier_trandafiri_roz', id: 51 }
