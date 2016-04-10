@@ -1,0 +1,44 @@
+#Site
+titlu: Bijunicat
+
+imagine: 'das'
+
+descriere: '<p><strong>Bijuterii lucrate manual din lut polimeric.<br> Fiecare piesa e realizata cu dragoste,un bulgare de energie pe care-l puteti purta sau darui.</strong></p>'
+
+seo:
+  description: 'Bijuterii lucrate manual din lut polimeric.Fiecare piesa e realizata cu dragoste,un bulgare de energie pe care-l puteti purta sau darui.'
+  rel-author: 'https://www.facebook.com/bijunicat'
+  rel-publisher: 'https://www.facebook.com/bijunicat'
+
+reguli_comanda:
+  - {text: 'Comanda minimă începe cu un produs.'}
+  - {text:  'După ce ați finalizat comanda pe site, noi vă vom contacta telefonic în cel mai scurt timp pentru confirmarea comenzii.'}
+  - {text:  'Produsele pot fi ridicate fizic la data fixata: 24 ore - 52 ore de la adresa <a href="https://goo.gl/maps/j5WaJ13nMxs" target="_blank">București, Sector 4, Str. Nițu Vasile 38-40, Stand 37 (lângă Terasa cu Flori)</a>.'}
+  - {text:  'După verificarea comenzii plata se va face cash la ridicare.'}
+  - {text:  'Deoarece firma noastră nu este plătitoare de TVA, prețul afișat este cel pe care îl plătiți efectiv pe produs, nu se mai adaugă alte costuri.'}
+
+harta: ''
+
+#Produse
+produse:
+  - { nume: 'Colier copac', descriere: '', pret: 15, poza: 'colier_copac', id: 31 }
+  - { nume: 'Colier fulgi', descriere: '', pret: 15, poza: 'colier_fulgi', id: 32}
+  - { nume: 'Colier cireșe', descriere: '', pret: 15, poza: 'colier_cirese', id: 33}
+  - { nume: 'Colier bufniță', descriere: '', pret: 15, poza: 'colier_bufnita', id: 34}
+  - { nume: 'Set panseluțe mov', descriere: '', pret: 20, poza: 'set_panselute_mov', id: 35}
+  - { nume: 'Cercei pisică neagră', descriere: '', pret: 10, poza: 'cercel_pisica', id: 36}
+  - { nume: 'Cercei trandafir', descriere: '', pret: 8, poza: 'cercel_trandafir', id: 37}
+  - { nume: 'Cercei orhidee', descriere: '', pret: 10, poza: 'cercel_orhidee', id: 38}
+  - { nume: 'Cercei Gia', descriere: '', pret: 15, poza: 'cercel_gia', id: 39}
+  - { nume: 'Cercei flori cu desen', descriere: '', pret: 20, poza: 'cercei_flower_pot', id: 40}
+  - { nume: 'Cercei flori roz', descriere: '', pret: 25, poza: 'cercel_flori_roz',id:  41}
+  - { nume: 'Broșă orhidee', descriere: 'Fabricată din fimo, cu ac de broșă. Dimensiuni 6x6cm.',pret: 10 , poza: 'brosa_orhidee', id: 25}
+  - { nume: 'Cercei pisici Felix', descriere: 'Fabricați din fimo, pe suport de cercei cu șurub. Dimensiuni 1x5cm.', pret: 15, poza: 'cercei_pisici_1', id: 26}
+  - { nume: 'Colier lanț bufniță', descriere: 'Fabricată din fimo, cu pene atașate, lanț metalic fără nichel. Dimensiuni 5x2,5cm.',pret: 12 , poza: 'bufnita_lant', id: 6}
+  - { nume: 'Colier bufniță', descriere: 'Fabricată din fimo, cu pene atașate, lanț cauciuc. Dimensiuni 5x2,5cm.', pret: 10, poza: 'bufnita_cauciuc', id: 7}
+  - { nume: 'Medalion mac', descriere: 'Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.',pret: 10 , poza: 'medalion_mac', id: 3}
+  - { nume: 'Medalion flori de câmp', descriere: 'Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.', pret: 10, poza: 'medalion_flori', id: 4}
+  - { nume: 'Medalion floare de colț', descriere: 'Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.', pret: 10, poza: 'medalion_floare_colt', id: 5}
+  - { nume: 'Colier piele cu orhidee', descriere: 'Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.',pret: 12 , poza: 'colier_orhidee', id: 1}
+  - { nume: 'Set panseluțe', descriere: 'Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.',pret: 15 , poza: 'set_panseluta', id: 27}
+  - { nume: 'Set maci', descriere: 'Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.', pret: 15, poza: 'set_mac', id: 2 }

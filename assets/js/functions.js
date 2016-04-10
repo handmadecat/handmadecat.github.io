@@ -1,3 +1,6 @@
+---
+---
+
 $(function() {
 	smoothScroll(300);
 	workBelt();
@@ -436,49 +439,22 @@ function clientStuff() {
 $(document).ready(function() {
 
   // Product data to be used in shop and in cart
-  var products = {
-		// 'pisica_roz' : ['Pisică roz', "Fabricată din fimo, pentru a fi purtată ca mărțișor. Dimensiuni 4x4,5cm sau 3x3,5cm.", 5, 'assets/images/pisica_roz.jpg', 8],
-		// 'pisica_alba' : ['Pisică albă', "Fabricată din fimo. Dimensiuni 4x2,5cm. Stă așezată.", 3.5, 'assets/images/pisica_alba.jpg', 9],
-		// 'pisica_neagra' : ['Pisică neagră', "Fabricată din fimo. Dimensiuni 4x2,5cm. Stă așezată.", 3.5, 'assets/images/pisica_neagra.jpg', 10],
-		// 'bufnita_maro' : ['Bufniță maro', "Fabricată din fimo, pentru a fi purtată ca mărțișor sau pandantiv. Dimensiuni 4x3cm.",5 , 'assets/images/bufnita_maro.jpg', 11],
-		// 'bufnita_alba' : ['Buniță albă', "Fabricată din fimo, pentru a fi purtată ca mărțișor sau pandantiv. Dimensiuni 5x2,5cm.", 5, 'assets/images/bufnita_alba.jpg', 12],
-		// 'martisor_snur' : ['Marțișor șnur', "Fabricat din fimo, cu ac de broșă. Dimensiuni 5x5,5cm.", 3.5, 'assets/images/martisor_snur.jpg', 13],
-		// 'pinguin_mic' : ['Marțișor pinguin', "Fabricat din fimo, stă așezat. Dimensiuni 2,5x2,5cm.", 3.5, 'assets/images/pinguin_mic.jpg', 14],
-		// 'soricel_saculet' : ['Șoricel cu buchet', "Fabricat din fimo, stă așezat. Dimensiuni 3x2,5cm.", 5, 'assets/images/soricel_saculet.jpg', 15],
-		// 'emoji_inimioare' : ['Emoticon îndrăgostit', "Fabricat din fimo. Diametru 1,8cm.",2 , 'assets/images/emoji_inimioare.jpg', 16],
-		// 'soricel_inimioara' : ['Șoricel cu inimioară', "Fabricat din fimo, stă așezat. Dimensiuni 3x2,5cm.", 5, 'assets/images/soricel_inimioara.jpg', 17],
-		// 'broscute' : ['Broscuță', "Fabricată din fimo, stă așezată. Dimensiuni 3,5x3cm.", 5, 'assets/images/broscute.jpg', 18],
-		// 'ursulet' : ['Ursuleț', "Fabricat din fimo, stă așezat. Dimensiuni 3,5x3cm.", 3.5, 'assets/images/ursulet.jpg', 19],
-		// 'iepure_mesaj' : ['Iepure cu mesaj', "Fabricat din fimo, mesaj pe carton. Stă așezat. Dimensiuni 8x5,5cm.", 5, 'assets/images/iepure_mesaj.jpg', 20],
-		// 'pinguin_mesaj' : ['Pinguin cu mesaj', "Fabricat din fimo, mesaj pe carton. Stă așezat. Dimensiuni 8x5,5cm.",5 , 'assets/images/pinguin_mesaj.jpg', 21],
-		// 'soricel_mesaj' : ['Șoricel cu mesaj', "Fabricat din fimo, mesaj pe carton. Stă așezat. Dimensiuni 8x5,5cm.", 5, 'assets/images/soricel_mesaj.jpg', 22],
-		// 'panseluta_mov' : ['Broșă panseluță mov', "Fabricată din fimo, mărțișor. Dimensiuni 2,5x2,5cm", 3.5, 'assets/images/panseluta_mov.jpg', 23],
-		// 'brosa_panseluta' : ['Broșă panseluță', "Fabricată din fimo, cu ac de broșă. Dimensiuni 3,5x4cm.", 5, 'assets/images/brosa_panseluta.jpg', 24],
-		// 'cutie_mica' : ['Mărțișoare emoji (x10)', "Fabricați din fimo. Cutie cu 10 emoji diferiți, ambalați în săculeți separați. Diametru 1,8cm.",20 , 'assets/images/box-small.jpg', 29],
-		// 'cutie_mare' : ['Mărțișoare emoji (x20)', "Fabricați din fimo. Cutie cu 20 emoji, 10 tipuri, ambalați în săculeți separați. Diametru 1,8cm.", 40, 'assets/images/box-big.jpg', 30],
-		'colier_copac' : ['Colier copac', "", 15, 'assets/images/colier_copac.jpg', 31],
-		'colier_fulgi' : ['Colier fulgi', "", 15, 'assets/images/colier_fulgi.jpg', 32],
-		'colier_cirese' : ['Colier cireșe', "", 15, 'assets/images/colier_cirese.jpg', 33],
-		'colier_bufnita' : ['Colier bufniță', "", 15, 'assets/images/colier_bufnita.jpg', 34],
-		'set_panselute_mov' : ['Set panseluțe mov', "", 20, 'assets/images/set_panselute_mov.jpg', 35],
-		'cercel_pisica' : ['Cercei pisică neagră', "", 10, 'assets/images/cercel_pisica.jpg', 36],
-		'cercel_trandafir' : ['Cercei trandafir', "", 8, 'assets/images/cercel_trandafir.jpg', 37],
-		'cercel_orhidee' : ['Cercei orhidee', "", 10, 'assets/images/cercel_orhidee.jpg', 38],
-		'cercel_gia' : ['Cercei Gia', "", 15, 'assets/images/cercel_gia.jpg', 39],
-		'cercei_flower_pot' : ['Cercei flori cu desen', "", 20, 'assets/images/cercei_flower_pot.jpg', 40],
-		'cercel_flori_roz' : ['Cercei flori roz', "", 25, 'assets/images/cercel_flori_roz.jpg', 41],
-		'brosa_orhidee' : ['Broșă orhidee', "Fabricată din fimo, cu ac de broșă. Dimensiuni 6x6cm.",10 , 'assets/images/brosa_orhidee.jpg', 25],
-		'cercei_pisici_1' : ['Cercei pisici Felix', "Fabricați din fimo, pe suport de cercei cu șurub. Dimensiuni 1x5cm.", 15, 'assets/images/cercei_pisici_1.jpg', 26],
-		'bufnita_lant' : ['Colier lanț bufniță', "Fabricată din fimo, cu pene atașate, lanț metalic fără nichel. Dimensiuni 5x2,5cm.",12 , 'assets/images/bufnita_lant.jpg', 6],
-		'bufnita_cauciuc' : ['Colier bufniță', "Fabricată din fimo, cu pene atașate, lanț cauciuc. Dimensiuni 5x2,5cm.", 10, 'assets/images/bufnita_cauciuc.jpg', 7],
-		'medalion_mac' : ['Medalion mac', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.",10 , 'assets/images/medalion_mac.jpg', 3],
-		'medalion_flori' : ['Medalion flori de câmp', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_flori.jpg', 4],
-		'medalion_floare_colt' : ['Medalion floare de colț', "Fabricat din fimo, montat pe șnur cerat. Diametru 2,5cm.", 10, 'assets/images/medalion_floare_colt.jpg', 5],
-		'colier_orhidee' : ['Colier piele cu orhidee', "Fabricată din fimo, montată pe șnur din piele. Dimensiuni 4x4,5cm.",12 , 'assets/images/colier_orhidee.jpg', 1],
-		'set_panseluta' : ['Set panseluțe', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3,5x4cm și 1,5x1,5cm.",15 , 'assets/images/set_panseluta.jpg', 27],
-		'set_mac' : ['Set maci', "Fabricate din fimo, cu ac de broșă, cercei cu șurub. Dimensiuni 3x5cm și 2x3cm.", 15, 'assets/images/set_mac.jpg', 2]
-  };
 
+		{% capture produse %}
+		{
+		{% for produs in site.data.bijunicat.produse %}
+		"{{ produs.poza }}": [
+		"{{ produs.nume }}",
+		"{{ produs.descriere }}",
+		"{{ produs.pret }}",
+		"assets/images/{{ produs.poza }}.jpg",
+		"{{ produs.id }}"
+		] {% if forloop.last %}{% else %},{% endif %}
+		{% endfor %}
+		}
+		{% endcapture %}
+		var products = {{produse | strip_newlines}};
+		console.log({{produse | strip_newlines}});
   // Populates shop with items based on template and data in var products
 
   var $shop = $('.shop');

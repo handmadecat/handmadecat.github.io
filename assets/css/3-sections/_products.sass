@@ -158,16 +158,19 @@ footer
 
 section.shop
 
+  max-width: 1200px
+  margin: 0 auto
+
 .product
   position: relative
   z-index: 1
   float: left
-  width: 25%
+  width: calc(25% - 10px)
   height: 300px
   overflow: hidden
   background-position: center center
   background-size: cover
-
+  margin: 5px
   /* Hide product descriptions */
 
   > *
@@ -663,12 +666,12 @@ header span.cart-quantity
 
 @media (max-width: 1050px)
   .product
-    width: 33%
+    width: calc(33% - 10px)
 
 
 @media (max-width: 830px)
   .product
-    width: 50%
+    width: calc(50% - 10px)
 
 @media (max-width: 560px)
   .product

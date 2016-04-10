@@ -1,0 +1,31 @@
+.contact-footer {
+    padding: 10px 0;
+}
+.contact-footer .social-footer ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+    width: 100px;
+}
+.contact-footer .social-footer li {
+	list-style-type: none;
+	float: left;
+}
+.contact-footer .social-footer ul li a i {
+	background: #232409;
+	color: #FCFEEC;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+	transition: all 0.2s ease-in-out;
+	opacity: .4;
+    box-sizing: border-box;
+}
+.contact-footer .social-footer ul li a i:hover {
+	opacity: 1;
+}

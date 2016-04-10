@@ -11,11 +11,9 @@
         <div class="col-xs-12 col-md-4">
             <div class="box detalii-comanda">
               <p class="detalii-comanda">
-                <i class="fa fa-check"></i> Comanda minimă începe cu un produs.<br>
-                <i class="fa fa-check"></i>După ce ați finalizat comanda pe site, noi vă vom contacta telefonic în cel mai scurt timp pentru confirmarea comenzii.<br>
-                <i class="fa fa-check"></i>Produsele pot fi ridicate fizic la data fixata: 24 ore - 52 ore de la adresa <a href="https://goo.gl/maps/j5WaJ13nMxs" target="_blank">București, Sector 4, Str. Nițu Vasile 38-40, Stand 37 (lângă Terasa cu Flori)</a>.<br>
-                <i class="fa fa-check"></i>După verificarea comenzii plata se va face cash la ridicare.<br>
-                <i class="fa fa-check"></i>Deoarece firma noastră nu este plătitoare de TVA, prețul afișat este cel pe care îl plătiți efectiv pe produs, nu se mai adaugă alte costuri.
+                {% for item in site.data.bijunicat.reguli_comanda %}
+                <i class="fa fa-check"></i> {{ item.text }}<br>
+                {% endfor %}
               </p>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d712.7716377650894!2d26.1191241!3d44.390345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDIzJzI1LjMiTiAyNsKwMDcnMDkuNyJF!5e0!3m2!1sen!2sro!4v1456092892963" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>

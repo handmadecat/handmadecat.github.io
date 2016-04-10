@@ -1,0 +1,45 @@
+.action-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 20px;
+    width: auto;
+    color: #232409;
+    background-color: transparent;
+    border-color: #232409;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    min-width: 120px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.action-button:hover {
+    background-color: #232409;
+    color: #fcfeec;
+}
+
+.action-button.cta {
+    border-color: #b80c09;
+    color: #b80c09;
+}
+.action-button.cta:hover {
+    background-color: #b80c09;
+    color: #fcfeec;
+}
